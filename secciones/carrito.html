@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Carrito</title>
+</head>
+<body>
+
+    <section id="carritoVacio">
+
+    </section>
+    
+    <section id="sectionCarrito">
+        <div>
+            <h1 class="tituloCarrito">Carrito</h1>
+            <button id="vaciarCarrito">Vaciar Carrito</button>
+        </div>
+        <div id="carrito">
+
+        </div>
+    </section>
+
+
+    <section class="checkout">
+        <a href="../index.html" class="seguir">Seguir comprando</a>
+        <div class="formulario"> 
+            <h3>Ingresa tus datos</h3>
+            <form id="form">
+                <input type="text" placeholder="Nombre y Apellido" id="nombre">
+                <input type="email" placeholder="Mail" id="mail">
+                <input type="text" placeholder="Dirección" id="direccion">
+                <input type="number" placeholder="Telefono" id="telefono">
+                <input type="submit" value="Listo" id="submit">
+            </form>
+            <div id="confirmacion">
+
+            </div>
+        </div>
+    </section>
+
+    <script src="../js/productos.js"></script>
+    <script src="../js/carrito.js"></script>
+</body>
+</html>
